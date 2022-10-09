@@ -462,6 +462,17 @@ const sqlQuiz = [
       "The REVOKE statement can be used to undo the action of a GRANT statement.",
     Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
   },
+  {
+    Question:
+      "Which of the following query get the data from STUDENT table where STUDENT_ID>50",
+    Answer: "SELECT * FROM STUDENT WHERE STUDENT_ID>50",
+    Distractor1: "SELECT # FROM STUDENT WHERE STUDENT_ID>50",
+    Distractor2: "SELECT ALL FROM STUDENT WHERE STUDENT_ID>50",
+    Distractor3: "SELECT FROM STUDENT WHERE STUDENT_ID>50",
+    Explanation:
+      "The REVOKE statement can be used to undo the action of a GRANT statement.",
+    Link: "https://www.freecodecamp.org/news/sql-where-clause-examples/",
+  },
 ];
 
 export default sqlQuiz;

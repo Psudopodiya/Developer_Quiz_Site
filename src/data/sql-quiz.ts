@@ -440,27 +440,16 @@ const sqlQuiz = [
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
   },
   {
-    Question:
-      "Can we join two Tables without foriegn key?",
-    Answer: "NO",
-    Distractor1: "YES",
-    Distractor2: "MAYBE",
-    Distractor3: "NOT SURE",
+     Question:
+      "Which of the following query Fetches all the data FROM the STUDENT TABLE WHERE THE STUDENT ID is greater than 50 i.e STUDENT_ID>50",
+    Answer: "SELECT * FROM STUDENT WHERE STUDENT_ID>50",
+    Distractor1: "SELECT # FROM STUDENT WHERE STUDENT_ID>50",
+    Distractor2: "SELECT FOM SUTDENT WHERE STUDENT_ID>50",
+    Distractor3: "SELECT ALL FROM STUDENT WHERE STUDENT_ID>50",
     Explanation:
-      "The REVOKE statement can be used to undo the action of a GRANT statement.",
-    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
+      "The SELECT command is used to SELECT the data to be picked while the * tells that all the data present in the table needs to be fetched and displayed with the constraints that the WHERE clause adds being that the STUDENT_ID must be greater than 50",
+    Link: "https://www.freecodecamp.org/news/sql-where-clause-examples/",
     
-  },
-  {
-    Question:
-      "What is a Foriegn Key used for",
-    Answer: "Create relationship between tables",
-    Distractor1: "To create a table",
-    Distractor2: "To delete a table",
-    Distractor3: "To uniquely identify a Row or Tuple in a table",
-    Explanation:
-      "The REVOKE statement can be used to undo the action of a GRANT statement.",
-    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
   },
 ];
 

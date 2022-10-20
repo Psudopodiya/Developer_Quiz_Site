@@ -44,6 +44,17 @@ const generalCSQuiz = [
     Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=4558s",
   },
   {
+    Question:
+      "Which one of these data structures is not a Linear Data Structure",
+    Answer: "Graph",
+    Distractor1: "Arrays",
+    Distractor2: "Linked List",
+    Distractor3: "Stacks",
+    Explanation:
+      "From the above the only one is Graph since it follows the concept of nodes and they have a predicessor and a successor",
+    Link: "https://www.geeksforgeeks.org/difference-between-linear-and-non-linear-data-structures/",
+  },
+  {
     Question: "What is the basic language of a computer?",
     Answer: "Binary",
     Distractor1: "HyperText Markup Language",
